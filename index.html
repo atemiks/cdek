@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <script src="./widget-3.2.1/dist/cdek-widget.umd.js"></script>
+    </head>
+    <body>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                new window.CDEKWidget({
+                    apiKey: '9a779ac5-2938-4145-8e33-72a1ddc99713',
+                    defaultLocation: 'Новосибирск',
+                    servicePath: './widget-3.2.1/dist/service.php',
+                });
+            });
+        </script>
+    </body>
+</html>
